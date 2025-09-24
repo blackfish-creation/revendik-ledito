@@ -37,12 +37,19 @@ comments :
 #   - JOURNAL: "https://blackfish-creation.github.io/revendik-ledito/journal/"
 #   - ABOUT: "https://blackfish-creation.github.io/revendik-ledito/about/"
 
-# Internal nav
+# # Internal nav (LOCAL DEPLOYMENT!)
+# nav:
+#   - L'EDITO: "http://127.0.0.1:4000/revendik-ledito/ledito/"  
+#   - CA BOUGE !: "http://127.0.0.1:4000/revendik-ledito/cabouge/"
+#   - PLUS D'INFO: "http://127.0.0.1:4000/revendik-ledito/info/"
+# #  - GALLERY: "http://127.0.0.1:4000/revendik-ledito/gallery/"  
+
+# Internal nav (copy from local test)
 nav:
-  - L'EDITO: "http://127.0.0.1:4000/revendik-ledito/ledito/"  
-  - CA BOUGE !: "http://127.0.0.1:4000/revendik-ledito/cabouge/"
-  - PLUS D'INFO: "http://127.0.0.1:4000/revendik-ledito/info/"
-#  - GALLERY: "http://127.0.0.1:4000/revendik-ledito/gallery/"  
+  - L'EDITO: "https://blackfish-creation.github.io/revendik-ledito/ledito/"  
+  - CA BOUGE !: "https://blackfish-creation.github.io/revendik-ledito/cabouge/"
+  - PLUS D'INFO: "https://blackfish-creation.github.io/revendik-ledito/info/"
+#  - GALLERY: "https://blackfish-creation.github.io/revendik-ledito/gallery/"  
 
 # All translation keys
 translations:
