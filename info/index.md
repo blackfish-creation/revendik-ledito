@@ -17,7 +17,7 @@ Parceque c'est souvent utile d'avoir plusieurs versions d'une même histoire.
 
 Une collections de photos prises entre deux manifs, toujours libres de droits : [https://www.flickr.com/people/203526310@N05/](https://www.flickr.com/people/203526310@N05/)
 
-Si allier science et expression artistique t'intéresses, puis que tu as du temps à perdre, va voir par ici : [https://kernythree.github.io/](https://kernythree.github.io/)
+Si allier science et expression artistique t'intéresses, puis que tu as du temps à perdre, va voir par ici : [lien](lien)
 
 ## Pour Echanger
 
