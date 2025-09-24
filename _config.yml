@@ -1,0 +1,83 @@
+# Site settings
+title: REVENDIK
+email: ""
+description: "Récits Graphiques - Blackfish"
+url: "https://blackfish-creation.github.io"
+baseurl: "/revendik-ledito"
+flickr_username: "203526310@N05"
+# facebook_username: ""
+# twitter_username: ""
+# instagram_username: ""
+# github_username:  ""
+# deviantart_username: ""
+# discus_shortname: ""
+share: true
+
+# Owner/author information
+owner:
+  name:   Blackfish Creation
+  avatar: logo.png
+  favicon: favicon.png
+  info: Récits Graphiques
+
+# Settings for comments helper
+# Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
+# Set 'provider' to false to turn commenting off globally.
+#Set 'provider: false' to disable comments globally.
+# Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
+#
+comments :
+  provider : disqus
+  disqus :
+    short_name : ""
+
+# # Internal nav
+# nav:
+#   - GALLERY: "https://blackfish-creation.github.io/revendik-ledito/gallery/"  
+#   - JOURNAL: "https://blackfish-creation.github.io/revendik-ledito/journal/"
+#   - ABOUT: "https://blackfish-creation.github.io/revendik-ledito/about/"
+
+# Internal nav
+nav:
+  - L'EDITO: "http://127.0.0.1:4000/revendik-ledito/ledito/"  
+  - CA BOUGE !: "http://127.0.0.1:4000/revendik-ledito/cabouge/"
+  - PLUS D'INFO: "http://127.0.0.1:4000/revendik-ledito/info/"
+#  - GALLERY: "http://127.0.0.1:4000/revendik-ledito/gallery/"  
+
+# All translation keys
+translations:
+ # 404.html
+  permalink: "/404.html"
+
+# Server
+destination:      	 ./_site
+port:             	 4000
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+paginate_path: "/cabouge/page:num/"
+permalink: "/cabouge/:title/"
+categories_path: "/cabouge/category/"
+tags_path: "/cabouge/tag/"
+gems: 
+ - jekyll-paginate
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+plugins:
+  - jekyll-paginate
+
+# SiteMap
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/writing/"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
